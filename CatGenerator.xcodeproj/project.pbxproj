@@ -48,16 +48,6 @@
 			path = CatGenerator;
 			sourceTree = "<group>";
 		};
-		CE897A3F2E02F21200495095 /* CatGeneratorTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CatGeneratorTests;
-			sourceTree = "<group>";
-		};
-		CE897A492E02F21200495095 /* CatGeneratorUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CatGeneratorUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				CE897A282E02F21000495095 /* CatGenerator */,
-				CE897A3F2E02F21200495095 /* CatGeneratorTests */,
-				CE897A492E02F21200495095 /* CatGeneratorUITests */,
 				CE897A272E02F21000495095 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				CE897A3E2E02F21200495095 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				CE897A3F2E02F21200495095 /* CatGeneratorTests */,
-			);
 			name = CatGeneratorTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				CE897A482E02F21200495095 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CE897A492E02F21200495095 /* CatGeneratorUITests */,
 			);
 			name = CatGeneratorUITests;
 			packageProductDependencies = (
@@ -294,7 +276,6 @@
 				INFOPLIST_FILE = CatGenerator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +303,6 @@
 				INFOPLIST_FILE = CatGenerator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
