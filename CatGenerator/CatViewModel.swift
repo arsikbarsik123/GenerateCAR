@@ -16,6 +16,7 @@ class CatViewModel: UIView {
     let textedButton: UIButton = {
         let button = UIButton()
         button.setTitle("Show me CAR", for: .normal)
+        button.titleLabel?.font = .systemFont(ofSize: 20)
         button.layer.cornerRadius = 10
         button.backgroundColor = .blue
         button.isEnabled = true

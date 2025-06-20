@@ -18,8 +18,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        window = .init(windowScene: windowScene)
-        window?.rootViewController = CatViewController()
+        let firstVC = CatViewController()
+        firstVC.tabBarItem = UITabBarItem(title: "Default", image: UIImage(systemName: "cat.circle"), tag: 0)
+        let secondVC = TextedCatViewController()
+        secondVC.tabBarItem = UITabBarItem(title: "Texted", image: UIImage(systemName: "cat.circle.fill"), tag: 1)
+        
+        let tab = UITabBarController()
+        tab.viewControllers = [firstVC, secondVC]
+        
+        window = UIWindow(windowScene: windowScene)
+        window?.rootViewController = tab
         window?.makeKeyAndVisible()
     }
 
